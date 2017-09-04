@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border-radius: 25px;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+    .fa {
+  padding: 20px;
+  font-size: 19px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+    .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+    .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">User Profile Card</h2>
+
+<div class="card">
+  <img src="/Users/purvayadkikar/Downloads/profile.JPG" alt="Purva" style="width:100%; border-radius: 25px;">
+  <div class="container">
+    <h1>Purva Yadkikar</h1>
+    <p class="title">Software Engineer</p>
+    <p>United States</p>
+    <div style="margin: 24px 0;">
+      <a href="https://twitter.com/PurvaYadkikar"><i class="fa fa-twitter"></i></a>  
+      <a href="https://www.linkedin.com/in/purva7/"><i class="fa fa-linkedin"></i></a>  
+      <a href="#"><i class="fa fa-facebook"></i></a> 
+   </div>
+   <p><button>Contact</button></p>
+  </div>
+</div>
+
+</body>
+</html>
